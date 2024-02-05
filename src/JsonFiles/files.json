@@ -1,0 +1,7 @@
+{
+  "data1": [
+    { "image": "img1", "type": "Google Drive" },
+    { "image": "img2", "type": "Dropbox" },
+    { "image": "img2", "type": "One Drive" }
+  ]
+}

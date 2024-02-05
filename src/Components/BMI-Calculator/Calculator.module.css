@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #535c68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bmiCalculator {
+  background-color: #fff;
+  height: 500px;
+  width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 00px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.box {
+  width: 350px;
+  background-image: url("../../assets/sun.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.data {
+  flex: 1;
+  padding: 15px;
+}
+
+h1 {
+  color: #2980b9;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #888;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.data button:last-child {
+  background-color: rgb(248, 36, 36);
+  margin-left: 10px;
+}
+
+.data button:last-child:hover {
+  background-color: rgb(198, 28, 28);
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+
+.result p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.result p:first-child {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
