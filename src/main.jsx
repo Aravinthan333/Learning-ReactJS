@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from './App.jsx'
 import "./index.css";
+import Home from "./Components/LoginPage/LogIn";
 // import Calculator from "./Components/BMI-Calculator/Calculator";
 // import AdviceApp from "./Components/AdviceApp/AdviceApp";
 // import RegFrm from "./Components/RegForm/RegFrm";
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <AdviceApp /> */}
     {/* <WeatherApp /> */}
     {/* <Calculator /> */}
+    <Home />
   </React.StrictMode>
 );

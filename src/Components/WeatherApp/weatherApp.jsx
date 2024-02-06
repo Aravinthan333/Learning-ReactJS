@@ -12,7 +12,7 @@ import snowIcon from "../../assets/snow.png";
 //   ---------------------------------------------------------------------
 
 function WeatherApp() {
-  const apiKey = "ea8592bb915e163b40245f6eedc5409e";
+  // const apiKey = "ea8592bb915e163b40245f6eedc5409e";
 
   const [text, setText] = useState("Sivakasi");
   const [isLoading, setLoading] = useState(false);
