@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from './App.jsx'
+// import App from "./App.jsx";
 import "./index.css";
-import Home from "./Components/LoginPage/LogIn";
+import RegisterPage from "./Components/LoginWithAuth/pages/RegisterPage";
+// import Home from "./Components/LoginPage/LogIn";
 // import Calculator from "./Components/BMI-Calculator/Calculator";
 // import AdviceApp from "./Components/AdviceApp/AdviceApp";
 // import RegFrm from "./Components/RegForm/RegFrm";
@@ -13,12 +14,14 @@ import Home from "./Components/LoginPage/LogIn";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
+    {/* <Text/> */}
     {/* <QRgenerator /> */}
     {/* <UserDetails /> */}
     {/* <RegFrm /> */}
     {/* <AdviceApp /> */}
     {/* <WeatherApp /> */}
     {/* <Calculator /> */}
-    <Home />
+    {/* <Home /> */}
+    <RegisterPage />
   </React.StrictMode>
 );
