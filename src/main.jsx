@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App.jsx";
 import "./index.css";
-import RegisterPage from "./Components/LoginWithAuth/pages/RegisterPage";
 // import Home from "./Components/LoginPage/LogIn";
 // import Calculator from "./Components/BMI-Calculator/Calculator";
 // import AdviceApp from "./Components/AdviceApp/AdviceApp";
@@ -11,9 +10,16 @@ import RegisterPage from "./Components/LoginWithAuth/pages/RegisterPage";
 // import QRgenerator from "./Components/QR-Code/QRgenerator.jsx";
 // import WeatherApp from "./Components/WeatherApp/weatherApp.jsx";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LoginPage from "./Components/LoginWithAuth/pages/LoginPage";
-import DashboardPage from "./Components/LoginWithAuth/pages/Dashboard";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import RegisterPage from "./Components/LoginWithAuth/pages/RegisterPage";
+// import LoginPage from "./Components/LoginWithAuth/pages/LoginPage";
+// import DashboardPage from "./Components/LoginWithAuth/pages/Dashboard";
+// import Router1 from "./ReactRouter/router1";
+
+// import Reducer from "./UseReducer/Reducer";
+
+// import DropDownProfile from "./Components/Dropdown/DropDownProfile";
+import Avatar from "./Components/Dropdown/DropDownProfile";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -27,7 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <Calculator /> */}
     {/* <Home /> */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<h1>Home</h1>} />
         <Route path="/register" element={<RegisterPage />} />
@@ -35,7 +41,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     {/* <RegisterPage /> */}
+
+    {/* <BrowserRouter>
+      <Router1 />
+    </BrowserRouter> */}
+
+    {/* <Reducer /> */}
+    <Avatar />
   </React.StrictMode>
 );
