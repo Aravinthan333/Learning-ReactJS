@@ -19,7 +19,9 @@ import "./index.css";
 // import Reducer from "./UseReducer/Reducer";
 
 // import DropDownProfile from "./Components/Dropdown/DropDownProfile";
-import Avatar from "./Components/Dropdown/DropDownProfile";
+// import Avatar from "./Components/Dropdown/DropDownProfile";
+
+import PrintingPrescription from "./Components/PrintingPrescription/PrintingPrescription";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -49,6 +51,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter> */}
 
     {/* <Reducer /> */}
-    <Avatar />
+    {/* <Avatar /> */}
+
+    <PrintingPrescription />
   </React.StrictMode>
 );
