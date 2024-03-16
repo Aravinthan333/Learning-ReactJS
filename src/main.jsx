@@ -16,12 +16,12 @@ import "./index.css";
 // import DashboardPage from "./Components/LoginWithAuth/pages/Dashboard";
 // import Router1 from "./ReactRouter/router1";
 
-// import Reducer from "./UseReducer/Reducer";
+import Reducer from "./UseReducer/Reducer";
 
 // import DropDownProfile from "./Components/Dropdown/DropDownProfile";
 // import Avatar from "./Components/Dropdown/DropDownProfile";
 
-import PrintingPrescription from "./Components/PrintingPrescription/PrintingPrescription";
+// import PrintingPrescription from "./Components/PrintingPrescription/PrintingPrescription";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -50,9 +50,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Router1 />
     </BrowserRouter> */}
 
-    {/* <Reducer /> */}
+    <Reducer />
     {/* <Avatar /> */}
 
-    <PrintingPrescription />
+    {/* <PrintingPrescription /> */}
   </React.StrictMode>
 );
