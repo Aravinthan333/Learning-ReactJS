@@ -66,6 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* nav a.active {
   color: brown;
 } */
@@ -131,7 +134,7 @@ nav a {
 
 /* ---------------------------------- Patient Prescription CSS------------------------------------ */
 
-.prescriptions {
+/* .prescriptions {
   display: flex;
   gap: 45px;
   text-align: center;
@@ -169,6 +172,6 @@ nav a {
   background-color: transparent;
   position: absolute;
   cursor: pointer;
-}
+} */
 
 /* -------------------------------------------------------------------------- */

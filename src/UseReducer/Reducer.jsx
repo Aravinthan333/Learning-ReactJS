@@ -17,9 +17,11 @@ function redu(state, action) {
       ];
 
     case "delete":
+      console.log("deleted");
       return state.filter((u) => u.id !== action.deleteTask);
 
     case "edit":
+      console.log("edit");
       return state.map((u) =>
         u.id === action.edited.id
           ? { ...u, name: action.edited.name, details: action.edited.details }
@@ -27,6 +29,7 @@ function redu(state, action) {
       );
 
     default:
+      console.log("default case");
       return state;
   }
 }
