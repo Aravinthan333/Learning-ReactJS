@@ -227,4 +227,12 @@ nav a {
   padding: 0 15px;
 }
 
+.pageTitle {
+  text-transform: uppercase;
+}
+
+.symptomName {
+  text-transform: capitalize;
+}
+
 /* -------------------------------------------------------------------------- */

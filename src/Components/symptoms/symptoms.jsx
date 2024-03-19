@@ -68,7 +68,7 @@ export const App = ({ symptom }) => {
   return (
     <div className="singleSymptom">
       <div className="toggling">
-        <span>{symptom} : </span>
+        <span className="symptomName">{symptom} : </span>
         <span>
           <Flex horizontal="true" gap="middle">
             <Radio.Group
@@ -93,10 +93,7 @@ export const App = ({ symptom }) => {
               </Button>
             ) : (
               <Button
-                type="primary"
-                danger
                 shape="circle"
-                onClick={clearAll}
                 style={{ position: "static", zIndex: "-100" }}
               >
                 X
@@ -150,7 +147,7 @@ export const App1 = () => (
 const Symptoms = () => {
   return (
     <div>
-      <h2>Symptoms</h2>
+      <h2 className="pageTitle">Symptoms</h2>
       <div className="allSymptoms">
         {symtoms.map((symtom, i) => (
           <div key={i}>
