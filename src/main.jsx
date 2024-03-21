@@ -22,7 +22,12 @@ import "./index.css";
 // import Avatar from "./Components/Dropdown/DropDownProfile";
 
 // import PrintingPrescription from "./Components/PrintingPrescription/PrintingPrescription";
-import Symptoms from "./Components/symptoms/symptoms";
+// import Symptoms from "./Components/symptoms/symptoms";
+
+// import Redux1 from "./LearnRedux/practice1/redux1";
+import { store } from "./LearnRedux/practice1/store";
+import { Provider } from "react-redux";
+import Redux from "./LearnRedux/Redux";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -56,6 +61,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     {/* <PrintingPrescription /> */}
 
-    <Symptoms />
+    {/* <Symptoms />*/}
+
+    <Provider store={store}>
+      {/* <Redux1 /> */}
+      <Redux />
+    </Provider>
   </React.StrictMode>
 );
